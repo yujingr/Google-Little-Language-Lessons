@@ -527,11 +527,8 @@ function SlangHangContent({ language: initialLanguage }) {
   );
 }
 
-// Client component that uses useSearchParams
-function SlangHangWrapper() {
-  const searchParams = useSearchParams();
-  const language = searchParams.get("language");
-
+// Main component
+export default function SlangHangResultPage() {
   return (
     <Suspense
       fallback={
@@ -540,12 +537,15 @@ function SlangHangWrapper() {
         </div>
       }
     >
-      <SlangHangContent language={language} />
+      <SlangHangWrapper />
     </Suspense>
   );
 }
 
-// Main component
-export default function SlangHangResultPage() {
-  return <SlangHangWrapper />;
+// Client component that uses useSearchParams
+function SlangHangWrapper() {
+  const searchParams = useSearchParams();
+  const language = searchParams.get("language");
+
+  return <SlangHangContent language={language} />;
 }
