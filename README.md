@@ -2,6 +2,12 @@
 
 This project is a clone of Google's [Little Language Lessons](https://labs.google/lll/en/experiments), a collection of bite-sized language learning experiments originally built with Gemini.
 
+[![CI](https://github.com/yourusername/little-language-lessons-clone/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/little-language-lessons-clone/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Next.js](https://img.shields.io/badge/Next.js-13.x-black)](https://nextjs.org/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yujingr/Google-Little-Language-Lessons)
+
 > **Note:** A video fully process on how this was created using Cursor AI will be released later. This took ~3 hours including all the steps from setup to completion.
 
 ## Screenshots
