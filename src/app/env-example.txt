@@ -1,0 +1,11 @@
+# AI Service Configuration
+# Copy these variables to your .env.local file with real values
+
+# AI model name to use
+AI_MODEL_NAME=gpt-4-turbo
+
+# Base URL for the AI service API 
+AI_BASE_URL=https://api.openai.com/v1
+
+# Your API key for the AI service
+AI_API_KEY=your_api_key_here 
