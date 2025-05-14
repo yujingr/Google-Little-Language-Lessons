@@ -2,6 +2,8 @@
 
 This project is a clone of Google's [Little Language Lessons](https://labs.google/lll/en/experiments), a collection of bite-sized language learning experiments originally built with Gemini.
 
+> **Note:** A video fully process on how this was created using Cursor AI will be released later. This took ~3 hours including all the steps from setup to completion.
+
 ## Screenshots
 
 ### Home Page
