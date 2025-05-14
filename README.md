@@ -2,6 +2,24 @@
 
 This project is a clone of Google's [Little Language Lessons](https://labs.google/lll/en/experiments), a collection of bite-sized language learning experiments originally built with Gemini.
 
+## Screenshots
+
+### Home Page
+
+![Home Page](./images/home.png)
+
+### Tiny Lesson
+
+![Tiny Lesson Entry](./images/tiny_entry.png)
+![Tiny Lesson Vocabulary](./images/tiny1.png)
+![Tiny Lesson Tips](./images/tiny2.png)
+
+### Slang Hang
+
+![Slang Hang Entry](./images/slang_entry.png)
+![Slang Hang Conversation](./images/slang1.png)
+![Slang Hang Glossary](./images/slang2.png)
+
 ## Implemented Experiments
 
 1. **Tiny Lesson**: Find relevant vocabulary, phrases, and grammar tips for any situation.
@@ -69,24 +87,6 @@ This project is a clone of Google's [Little Language Lessons](https://labs.googl
 - Experience a realistic conversation between native speakers
 - Learn authentic slang, idioms, and colloquial expressions
 - Each conversation includes a glossary of slang terms with definitions and examples
-
-## Screenshots
-
-### Home Page
-
-![Home Page](./images/home.png)
-
-### Tiny Lesson
-
-![Tiny Lesson Entry](./images/tiny_entry.png)
-![Tiny Lesson Vocabulary](./images/tiny1.png)
-![Tiny Lesson Tips](./images/tiny2.png)
-
-### Slang Hang
-
-![Slang Hang Entry](./images/slang_entry.png)
-![Slang Hang Conversation](./images/slang1.png)
-![Slang Hang Glossary](./images/slang2.png)
 
 ## TODO
 
