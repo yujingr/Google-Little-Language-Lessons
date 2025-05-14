@@ -96,9 +96,16 @@ This project is a clone of Google's [Little Language Lessons](https://labs.googl
 - Learn authentic slang, idioms, and colloquial expressions
 - Each conversation includes a glossary of slang terms with definitions and examples
 
+## Implementation Note
+
+Unlike the original Google implementation that breaks down AI calls into multiple smaller parts, this clone makes a single OpenAI API call for each experiment. This approach can be prone to errors if using smaller models with limited context windows or processing capabilities.
+
 ## TODO
 
 - [ ] Implement Experiment 3 from the original Little Language Lessons
+- [ ] Break up Tiny Lesson and Slang Hang into multiple smaller API calls to improve speed and loading times
+- [ ] Implement error checking for each smaller part when breaking up the API calls
+- [ ] Add fallback mechanisms for handling model errors or limitations
 
 ## License
 
